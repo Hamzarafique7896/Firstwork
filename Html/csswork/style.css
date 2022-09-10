@@ -2,6 +2,7 @@
 body{
     margin: 0%;
     background-color: blanchedalmond;
+ 
 }
 .first{
 
@@ -88,4 +89,8 @@ label{
     padding-right: 1vh;
   
 
+}
+input{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
