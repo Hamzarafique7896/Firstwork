@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav{
+    background-color: #FFF5E4;
+}
+.navhead{
+   
+    height: 15vh;
+    display: flex;   
+}
+.navfirst{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.navfirst a{
+    text-decoration: none;  
+    color: black;
+  }
+.navfirst a h1{
+    font-size: 200%;
+    font-family: 'Merriweather', serif;
+}
+.navsecound{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.navsecound ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navsecound ul li{
+    list-style: none;
+    margin-left: 3.7%;
+     display: flex;
+     flex-direction: row;
+}
+.navsecound ul li a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;  
+    color: black;
+    font-size: 150%;
+    width: 170%;
+}
+.navthird{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navthirdbutton1{
+    width: 45%;
+    margin-right: 3%;
+    border: 1px solid gainsboro;
+}
+.navthirdbutton1 input{
+    width: 100%;
+    padding: 3%;
+    border: 0px;
+}
+.navthirdbutton2{
+    background-color: #FFF5E4;
+    border: 0px;
+}
+.navthirdbutton2 i{
+    font-size: 2em;
+    color: rgb(255, 154, 4);
+}
+
+/* ********************************************Well seaction */
+
+
+.well{
+    background-image: url(../photos/backimg.jpg) ;
+  
+
+
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+/* ********************************************About seaction */
+.about{
+    margin: 0%;
+    background-color: #FFC4C4;
+    height: 80vh;
+}
+.abouthead{
+    font-family: 'Merriweather', serif;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+   font-size: 200%;
+}
+.aboutbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.aboutimg{
+/*  
+ overflow: scroll; */
+    overflow: hidden;
+    overflow-block: 0px;
+    height: 13%;
+    width: 20%;
+    border-radius: 100%;
+    background-color: #FFC4C4;
+
+
+}
+/* ..aboutimg img{
+        height: 20%;
+    width: 20%;
+    border-radius: 100%;
+
+} */
+.abouttext{
+    width: 60%;
+    margin-left: 2%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    color: black !important;
+}
+
+
+
+/* Testomonologies */
+.Testomonologies{
+    background-color: #EE6983;
+    height: auto;
+    padding-bottom: 5%;
+}
+.testomon{
+
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.testarea{
+    overflow: hidden;
+    background-color: white;
+    width:16.0625em;
+    height: auto;
+}
