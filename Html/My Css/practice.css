@@ -100,7 +100,7 @@
 }
 .abouthead{
     font-family: 'Merriweather', serif;
-    padding: 5%;
+    padding: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,6 +137,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 120%;
     color: black !important;
+
 }
 
 
@@ -160,4 +161,54 @@
     background-color: white;
     width:16.0625em;
     height: auto;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+}
+
+/* <!-- ***************testimnials**************** --> */
+.comments{
+
+    height: auto;
+    padding-bottom: 5%;
+    background-color: #850E35;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.commentfirst{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+    margin-bottom: 1%;
+
+}
+.commentimg{
+
+ 
+
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: 100%;
+    overflow: hidden; */
+}
+.commentimg img{
+    width: 150%;
+    margin-bottom: 10%;
+}
+.text{
+    color: white;
+}
+
+.commenttext{
+    text-align: center;
+    margin-left: 3%;
+    font-family: 'Merriweather', serif;
+    color: white;
+   
+
 }
