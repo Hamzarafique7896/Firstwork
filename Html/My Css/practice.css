@@ -212,3 +212,11 @@
    
 
 }
+/* 
+*****************footer********** */
+.footer{
+    background-color: #011C39;
+    margin: 0%;
+    padding: 5%;
+    height: 30vh;
+}
