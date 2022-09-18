@@ -217,6 +217,106 @@
 .footer{
     background-color: #011C39;
     margin: 0%;
-    padding: 5%;
-    height: 30vh;
+    padding: 5% 8%;
+    height: auto;
+    
+
+
+}
+.containerclassfoot{
+    display: flex;
+
+}
+.footercontainerfirst{
+    width: 60%;
+}
+.footerfirst h1 {
+    font-size: 3.0em;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.footerfirst a{
+    text-decoration: none;
+    border: 0cm;
+
+}
+.footermiddle{
+    padding-top: 2%;
+    width: 50%;
+    color: grey;
+   
+}
+.footerend{
+    padding-top: 2%;
+    font-size: 3em;
+    
+  
+    
+
+}
+.footerend a i{
+    color: gray;
+    margin-left: 1%;
+}
+.footcontainersecound{
+    color: white;
+    width: 12.5%;
+
+}
+.footcontainersecoundhead{
+    padding: 0.55em 0em  ;
+}
+.footcontainersecoundhead a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+
+}
+.footcontainersecoundbody ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: sp;
+}
+.footcontainersecoundbody ul a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.footcontainersecoundbody ul li{
+    font-family: 'Raleway', sans-serif;
+display: flex;
+
+    padding: 1.18em 0em;
+}
+.hrfoot{
+    margin-top: 7%;
+
+    border: 2px solid grey;
+    
+}
+.hrcopy{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.hrcopydesign{
+    color: white;
+    font-size: 110%;
+}
+.footlist ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.footlist ul a{
+    text-decoration: none;
+    color: white;
+}
+.footlist ul a li{
+   
+margin-right: 1em;
+width: 100%;
 }
