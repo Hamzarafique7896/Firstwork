@@ -118,7 +118,7 @@
 /* ********************************************About seaction */
 .about{
     margin: 0%;
-    background-color: #FFC4C4;
+    background-color: #79DAE8;
     height: 80vh;
 }
 .abouthead{
@@ -144,7 +144,7 @@
     height: 13%;
     width: 20%;
     border-radius: 100%;
-    background-color: #e4c2c2;
+    background-color: #79DAE8;
 
 
 }
@@ -167,7 +167,7 @@
 
 /* Testomonologies */
 .Testomonologies{
-    background-color: #d88192;
+    background-color: #0AA1DD;
     height: auto;
     padding-bottom: 5%;
 }
@@ -188,25 +188,22 @@
     height: auto;
     font-family: 'Merriweather', serif;
     font-size: 100%;
-    height: 70%;
-    width: 15%;
+    height: 75%;
+    width: 18%;
     border-radius: 1rem;
     border: 2px solid black;
     transition: 0.5s;
     color: gray;
 }
 .testarea:hover{
-    transform: scale(1.2);
-    box-shadow: 8px 8px 10px 3px grey;
+    transform: scale(1.17);
+    box-shadow: 2px 2px 5px 3px #011C39;
    color: black;
     
     
 
 }
-.testimg{
-    padding: 0%
-    border-bottom: 1px solid black;
-}
+
 .testtext{
     text-align: left;
     padding: 2%;
@@ -217,7 +214,7 @@
 
     height: auto;
     padding-bottom: 5%;
-    background-color: #d44f7c;
+    background-color: #2155CD;
     display: flex;
     flex-direction: column;
     align-items: center;
