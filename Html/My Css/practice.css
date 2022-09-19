@@ -42,6 +42,25 @@
      display: flex;
      flex-direction: row;
 }
+.navsecound ul li:hover{
+    background-color: hsl(53, 68%, 77%);
+    border-radius: 50rem;
+    padding: 1%;
+
+   
+  
+    
+    
+}
+.navsecound ul li a:hover{
+    font-size: 120%;
+    color: white;
+    font-family: 'Merriweather', serif;
+
+
+    
+    
+}
 .navsecound ul li a {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;  
@@ -54,24 +73,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .navthirdbutton1{
+    display: flex;
+    align-items: center;
     width: 45%;
     margin-right: 3%;
     border: 1px solid gainsboro;
+    flex-direction: row;
 }
 .navthirdbutton1 input{
     width: 100%;
-    padding: 3%;
+    padding: 4%;
     border: 0px;
 }
-.navthirdbutton2{
-    background-color: #FFF5E4;
-    border: 0px;
-}
-.navthirdbutton2 i{
-    font-size: 2em;
-    color: rgb(255, 154, 4);
+
+.navthirdbutton1 i{
+    padding: 1%;
+        font-size: 2em;
+
+    color: #dfad58;
+    background-color: white;
 }
 
 /* ********************************************Well seaction */
@@ -155,6 +178,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    height: 30em;
+    padding: 0% 7%;
 }
 .testarea{
     overflow: hidden;
@@ -163,12 +188,28 @@
     height: auto;
     font-family: 'Merriweather', serif;
     font-size: 100%;
+    height: 70%;
+    width: 15%;
+    border-radius: 1rem;
+    border: 2px solid black;
+    transition: 0.5s;
+    color: gray;
 }
 .testarea:hover{
+    transform: scale(1.2);
     box-shadow: 8px 8px 10px 3px grey;
-    z-index: 1;
+   color: black;
+    
     
 
+}
+.testimg{
+    padding: 0%
+    border-bottom: 1px solid black;
+}
+.testtext{
+    text-align: left;
+    padding: 2%;
 }
 
 /* <!-- ***************testimnials**************** --> */
