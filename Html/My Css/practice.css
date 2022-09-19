@@ -101,7 +101,10 @@
 
 
 .well{
-    background-image: url(../photos/backimg.jpg) ;
+    background-image: url(../photos/backimghead.jpg) ;
+    background-repeat: no-repeat;
+background-size: 100%;
+    background-position: 100%;
   
 
 
