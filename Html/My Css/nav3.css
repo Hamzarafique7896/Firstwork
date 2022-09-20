@@ -18,6 +18,10 @@
     
     width: 18vh;
     height: 60vh;
+    transition: 3s;
+}
+.navbar:hover{
+    transform: scale(1.1);
 }
 .navbarimg{
     height: 5vh;
@@ -34,12 +38,13 @@
     color: black;
     font-family: 'Merriweather', serif;
     font-size: 80%;
+    transition: 1s;
     
 }
 .navbarimg a:hover{
     color: red;
     border-radius: 50rem;
-    transform: scale(1.12);
+    transform: scale(1.05);
    
 
 }
@@ -56,7 +61,7 @@
 }
 .navul li{
     margin-top: 5vh;
-    transition: 0.25s;
+    transition: 1s;
    
 
 }
@@ -74,7 +79,7 @@
 }
 .navul a:hover{
  
-    color: red;    
+    color: white;    
 }
 .navicons{
     width: 18vh;
@@ -140,5 +145,9 @@ justify-content: center;
 }
 .welcome h2{
     color: red;
-    font-size: 600%;
+    font-size: 1000%;
+    transition: 2.5s;
+}
+.welcome h2:hover{
+    transform: scale(0.5);
 }
