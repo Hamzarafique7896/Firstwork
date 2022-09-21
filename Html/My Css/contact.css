@@ -4,46 +4,160 @@
 }
 .signin{
     background-color: #212540;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
+    
    
 }
 .signback{
-    width: 70%;
-    margin-top: 10%;
-    height: 50vh;
+    width: 100%;
+    height: auto;
+    padding: 3%;
 }
 .signbackcol{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 50vh;
+    height: 51.75em;
     background-color: white;
-    width: 20%;
-    border-radius: 1rem;
+    width: 27.625em;
+    border-radius: 2rem;
     padding: 1%;
 
     
 }
 .signlogo{
-    font-size: 130%;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    width: 20.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14.375em;
+    font-size: 130%; 
     color: #19B0CA;
-    margin-left: 2%;
+ 
 }
-.signinput{
 
-   
-    margin-left: 2%;
+.signinput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 27.1em;
+  
+
 
 } 
-.signinput{
-    
+.signinput i{
+    position: absolute;
+    font-size: 1.5em;
+    margin-top: 0.65em;
+    margin-left: 0.5em;
+    color: rgb(219, 211, 211);
+}
+
+.signinput input{
+   width: 23.563em;
+    padding: 1.5em;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid grey;
+}
+.signbutton{
+    margin-top: 1.313em;
+    width: 27.1em;
+    text-align: center;
 
 }
-.signinput input{
-    width: 120%;
-    padding: 5%;
+.signbutton button{
+    background-color: #48ccba;
+    width: auto;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 150%;
+    padding-left: 5.59em;
+    padding-right: 5.59em;
+    padding-top: 0.65em;
+    padding-bottom: 0.65em;
+    border: 0px solid grey;
+}
+.signup{
+    height: 8.626em;
+    width: 27.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.signup a {
+    text-decoration: none;
+    color: #48ccba;
+    font-size: 120%;
+
+}
+/* <!-- Secound sign in form --> */
+
+.checkbox{
+    width: 27.1em;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 2.688em; */
+    
+}
+
+.remember{
+
+    width: 98px !important;
+    padding-right: 0px;
+    margin-right: -35px;
+
+}
+
+
+.checkmanage{
+    width: 27.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+   
+
+}
+.checkmanagep{
+    width: 10em;
+    color: grey;
+}
+
+.back3::placeholder{
+    color: white;
+}
+.logup{
+    width: 27.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8.626em;
+
+}
+.logup p{
+    color: white;
+}
+.logup a{
+    text-decoration: none;
+}
+.logup a button{
+    margin-top: 5%;
+    border-radius: 1rem;
+    background-color: #35BBA2;
+    color: white;
+    border: 1px solid white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.35em ;
+    padding-bottom: 0.35em;
+    
 }
