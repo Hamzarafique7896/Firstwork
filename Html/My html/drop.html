@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down</title>
+</head>
+<body>
+    <style>
+        .btn{
+            background-color: aqua;
+        }
+        /* .list{
+           
+            position: absolute;
+            
+
+        } */
+        .list ul{
+            display: none;
+            display: flex;
+            list-style: none;
+            flex-direction: column;
+
+        }
+        .btn:hover{
+            color: red;
+        }
+        .btn:hover .list ul{
+            display: block;
+
+        }
+    </style>
+    <section>
+
+        <button class="btn">options</button>
+
+    <div class="list">
+        <ul>
+            <li> <a href=""> option1
+
+            </a></li>
+            <li> <a href=""> option2
+
+            </a></li>
+            <li> <a href=""> option3
+
+            </a></li>
+            <li> <a href=""> option4
+
+            </a></li>
+        </ul>
+    </div>
+
+    </section>
+
+
+    <section>
+        <h1>hello this is the dropdown</h1>
+
+        <div class="dropdown">
+            <button class="dropbtn">THIS IS DROPDOWN</button>
+            <div class="dropcontent">
+                <a href="https://www.google.com/" target="_blank">GOOGLE</a>
+                <a href="https://www.facebook.com/" target="_blank">FACEBOOK</a>
+                <a href="https://www.bing.com/" target="_blank">BING</a>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
