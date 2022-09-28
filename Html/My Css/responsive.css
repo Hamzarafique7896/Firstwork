@@ -28,9 +28,11 @@ a{
     color: white;
 }
 .secoundcontainer{
+    margin-top: 0% !important;
     width: 60%;
     display: flex;
     align-items: center;
+    justify-content: center;
  
 
 }
@@ -38,12 +40,14 @@ a{
     display: flex;
     flex-direction: row;
     list-style: none;
+    align-items: center;
+    justify-content: center;
 
 }
 .secoundcontainer ul li{
     display: flex;
     width: auto;
-    margin-left: 11%;
+    margin-left: 20%;
 
 }
 .secoundcontainer ul li a{
@@ -64,7 +68,7 @@ a{
     margin-left: 20%;
 }
 /* *************************************************Media Quries For Navbar */
-@media (min-width:1290px) and (max-width:1640px) {
+@media (min-width:1290px) and (max-width:1740px) {
     .secoundcontainer ul li{
         margin-left: 5%;
     }
@@ -94,7 +98,8 @@ a{
 
 @media (min-width:567px) and (max-width:800px) {
     .firstcontainer{
-        width: 30%;
+        display: none;
+        width: 0%;
     }
     .secoundcontainer{
         width: 70%;   
@@ -211,6 +216,10 @@ a{
     }
 }
 /* homepage css for design */
+.homepage{
+    height: auto;
+    position: relative;
+}
 .homecontainer{
     position: absolute;
     display: flex;
@@ -231,14 +240,14 @@ a{
 
 }
 .homeparagraph{
-    width: 80%;
-  padding: 3%;
+    width: 100%;
+  padding: 3% 0% 3% 0%;
 
 }
 .homeparagraph p{
     text-align: center;
     padding: 1%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .homebutton button{
    padding: 1em 2.5em 1em 2.5em;
@@ -246,7 +255,7 @@ a{
    color: white;
    border: 0px solid white;
    font-size: 110%;
-   transition: 1s ease-in;
+   transition: 1s ease-in-out;
 }
 .homebutton button:hover{
     border-radius: 2rem;
@@ -279,12 +288,13 @@ a{
     .homeparagraph{
         width: 100%;
      
-        padding: 2%;
+        padding: 0%;
         
     }
     .homeparagraph p{
         text-align: left !important;
         font-size: 90%;
+        
         
     }
     .homebutton button{
@@ -295,13 +305,20 @@ a{
      }
 
 }
-@media (min-width:375px) and (max-width:479px) {
+     .arrowdown img{
+        position: absolute;
+        left: 48%;
+        top: 96%;
+        width: 4%;
+
+}
+@media (min-width:375px) and (max-width:550px) {
     .homecontainer{
         top: 15%;
     }
     .homeheading{
 
-        font-size: 80%;
+        font-size: 60%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
     }
@@ -313,14 +330,14 @@ a{
     }
     .homeparagraph p{
         text-align: left !important;
-        font-size: 70%;
+        font-size: 50%;
         
     }
     .homebutton button{
         padding: 0.5em 1.25em 0.5em 1.25em;
         background-color: #FC4311;
         color: white;
-        font-size: 80%;
+        font-size: 60%;
      }
 
 }
@@ -379,4 +396,249 @@ a{
         font-size: 60%;
      }
 
+}
+
+
+
+/* ********************************************************************About section */
+.aboutcontainer{
+    padding-top: 5%;
+    height: auto;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+.aboutfirstcotainer{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+}
+.aboutfirstcotainerheading{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+
+}
+.aboutfirstcotainerheading h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    border-bottom: 1px solid red;
+}
+.aboutfirstcotainerparagrapph{
+    text-align: center;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.secoundcontainer{
+    margin-top: 2%;
+    width: 100%;
+}
+.secoundcontainertext{
+    margin-left: 12.5%;
+    width: 27em;
+    height: 27.563em;
+    padding: 2%;
+}
+.secoundcontainertextheading{
+    padding-top: 2%;
+    padding-bottom: 6%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+
+}
+.secoundcontainertextparagraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    height: 22em;
+    font-stretch: ultra-expanded;
+    padding-top: 2%;
+    line-height: 150%;
+}
+
+.secoundcontainerimg{
+    width:auto;
+    overflow: hidden;
+    position: relative;
+
+   
+}
+.secoundcontainerimg img{
+
+    width: 100%;
+
+
+}
+.homebutton button{
+    padding: 1em 2.5em 1em 2.5em;
+    background-color: #FC4311;
+    color: white;
+    border: 0px solid white;
+    font-size: 110%;
+    transition: 1s ease-in-out;
+ }
+ .homebutton button:hover{
+     border-radius: 2rem;
+     background-color: white;
+     color: #FC4311;
+ }
+.aboutbutton button{
+    padding: 1em 2.5em 1em 2.5em;
+    background-color: #000000;
+    color: white;
+    border: 0px solid white;
+    font-size: 110%;
+    transition: 1s ease-in-out;
+    margin-top: 25%;
+
+ }
+ .aboutbutton button:hover{
+     border-radius: 2rem;
+     background-color: #FC4311;
+ }
+
+
+
+@media (min-width:400px) and (max-width:1440px) {
+    .secoundcontainer{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+
+    }
+    .secoundcontainertext{
+        margin-left: 0%;
+
+    }
+    
+}
+
+@media (min-width:400px) and (max-width:600px) {
+    .secoundcontainer{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+
+    }
+    .secoundcontainertext{
+        margin-left: 0%;
+        text-align: center;
+
+    }
+    .aboutfirstcotainerheading h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 100%;
+        border-bottom: 1px solid red;
+    }
+    
+}
+/* <!-- ------------------------------------------------------Screenshot section --> */
+.Screenshotcontainer{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.firstScreenshotcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.firstScreenshotcontainerheading{
+    font-size: 120%;
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.firstScreenshotcontainerheading h2{
+    border-bottom: 1px solid red;
+}
+.firstScreenshotcontainertext{
+    font-size: 110%;
+    text-align: center;
+    width: 80%;
+    line-height: 150%;
+    padding:1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secoundScreenshotcontainer{
+    margin-top: 2%;
+    position: relative;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+}
+.secoundScreenshotcontainer img{
+    width: 100%;
+}
+.secoundScreenshotcontainerleftscroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    top: 40%;
+    left: 0%;
+}
+.secoundScreenshotcontainerleftscroll i{
+    color: white;
+  
+}
+.secoundScreenshotcontainerrightscroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    top: 40%;
+    right: 0%;
+
+
+}
+.secoundScreenshotcontainerrightscroll i{
+    color: white;
+
+}
+.Screenshotbutton button{
+    padding: 1em 2.5em 1em 2.5em;
+    background-color: #000000;
+    color: white;
+    border: 0px solid white;
+    font-size: 110%;
+    transition: 1s ease-in-out;
+    margin-top: 10%;
+ }
+ .Screenshotbutton button:hover{
+     border-radius: 2rem;
+     background-color: #FC4311;
+ }
+
+@media (min-width:600px) and (max-width:858px) {
+    .secoundScreenshotcontainer img{
+        width: 70%;
+    }
+    
+}
+@media (min-width:400px) and (max-width:600px) {
+    .secoundScreenshotcontainer img{
+        width: 70%;
+    }
+    
+
+.secoundScreenshotcontainerleftscroll{
+
+    width: 35px;
+    height: 35px;
+}
+.secoundScreenshotcontainerrightscroll{
+    width: 35px;
+    height: 35px;
+}
 }
