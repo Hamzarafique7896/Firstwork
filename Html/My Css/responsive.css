@@ -310,7 +310,7 @@ a {
 }
 
 .arrowlefthomeimg a i {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .arrowlefthomeimg {
@@ -320,7 +320,7 @@ a {
     position: absolute;
     background-color: white;
     top: 40% !important;
-    left: -30px;
+    left: -25px;
     width: 70px;
     height: 70px;
     border-radius: 35px;
@@ -343,7 +343,7 @@ a {
     top: 40%;
     width: 70px;
     height: 70px;
-    right: -30px;
+    right: -25px;
     background-color: white;
     border-radius: 35px;
 }
@@ -358,7 +358,7 @@ a {
 
 .arrowrighthomeimg a i {
 
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .homecontainer {
