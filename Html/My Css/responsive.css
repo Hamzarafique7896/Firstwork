@@ -286,19 +286,33 @@ a {
 .homepage {
     height: auto;
     position: relative;
+    width: 100%;
+    overflow: hidden;
+
 }
-.arrowdown img {
- 
-    position: absolute;
-    left: 48%;
-    top: 94%;
+
+.arrowdown {
     width: 70px;
     height: 70px;
-}
-.arrowlefthomeimg a i{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    left: 47%;
+    bottom: 6%;
 
+}
+
+.arrowdown img {
+    width: 100%;
+    z-index: 2;
+
+}
+
+.arrowlefthomeimg a i {
     font-size: 2em;
 }
+
 .arrowlefthomeimg {
     display: flex;
     justify-content: center;
@@ -306,22 +320,45 @@ a {
     position: absolute;
     background-color: white;
     top: 40% !important;
-    left: -1.5%; 
+    left: -30px;
     width: 70px;
     height: 70px;
     border-radius: 35px;
 }
-.arrowrighthomeimg{
-    position:absolute;
+
+.arrowlefthomeimg:hover {
+    background-color: #FC4311;
+}
+
+.arrowlefthomeimg:hover .arrowlefthomeimglink {
+    color: white !important;
+}
+
+.arrowrighthomeimg {
+
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
     top: 40%;
     width: 70px;
-    height:  70px;
-    right: -1.5%;
+    height: 70px;
+    right: -30px;
     background-color: white;
     border-radius: 35px;
+}
+
+.arrowrighthomeimg:hover {
+    background-color: #FC4311;
+}
+
+.arrowrighthomeimg:hover .arrowlefthomeimglink2 {
+    color: white !important;
+}
+
+.arrowrighthomeimg a i {
+
+    font-size: 2em;
 }
 
 .homecontainer {
@@ -330,7 +367,7 @@ a {
     align-items: center;
     flex-direction: column;
     width: 60%;
-    top: 40%;
+    top: 25%;
     left: 20%;
     color: white;
 
@@ -372,7 +409,18 @@ a {
 }
 
 
-@media (min-width:661px) and (max-width:1071px) {
+@media (min-width:1071px) and (max-width:1250px) {
+    .arrowdown {
+        bottom: 5%;
+    }
+
+    .uniquediv {
+        height: 10vh;
+    }
+
+}
+
+@media (min-width:796px) and (max-width:1071px) {
     .homecontainer {
         top: 20%;
     }
@@ -384,16 +432,13 @@ a {
 
     }
 
-}
-
-@media (min-width:661px) and (max-width:898px) {
     .arrowdown img {
         top: 90%;
     }
 
 }
 
-@media (min-width:250px) and (max-width:661px) {
+@media (min-width:400px) and (max-width:796px) {
     .homecontainer {
         top: 15%;
     }
@@ -420,45 +465,75 @@ a {
         color: white;
         font-size: 100%;
     }
+
+    .arrowdown img {
+        top: 90%;
+    }
 }
 
+@media (min-width:330px) and (max-width:400px) {
+    .homecontainer {
+        top: 10%;
+    }
 
-
-@media (min-width:334px) and (max-width:364px) {
     .homeheading {
 
-        font-size: 80%;
+        font-size: 70%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     }
 
     .homebutton button {
         margin-top: 10%;
-        padding: 0.25em;
+        padding: 0.15em;
         background-color: #FC4311;
         color: white;
-        font-size: 80%;
+        font-size: 60%;
     }
 
+    .homeparagraph {
+
+        display: none;
+        width: 0%;
+        padding: 0%;
+
+    }
 }
 
-@media (min-width:250px) and (max-width:334px) {
-    .homebutton button {
-        margin-top: 10%;
-        padding: 0.7em !important;
-        background-color: #FC4311;
-        color: white;
-        font-size: 50%;
+@media (min-width:250px) and (max-width:330px) {
+    .homecontainer {
+        top: 5%;
     }
 
+    .homeheading {
+
+        font-size: 60%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .homebutton button {
+        margin-top: 10%;
+        padding: 0.75em 1em 0.75em 1em !important;
+        background-color: #FC4311;
+        color: white;
+        font-size: 0%;
+    }
+
+    .homeparagraph {
+
+        display: none;
+        width: 0%;
+        padding: 0%;
+
+    }
 }
 
 /* ********************************************************************About section */
 .aboutcontainer {
-    padding-top: 5%;
+    padding-top: 2%;
     height: auto;
     display: flex;
-
     flex-direction: column;
     align-items: center;
 }
@@ -882,16 +957,13 @@ a {
     right: 0;
     color: #FC4311;
     font-size: 120%;
-    /* border: 1px solid black; */
     padding: 2%;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 2s;
+    transition: 1s;
 }
 
 .imagesservicetexted a {
     color: #FC4311;
-
-
 }
 
 .boderend {
@@ -1129,7 +1201,7 @@ a {
 }
 
 .contactusformcontainer {
-    width: 30%;
+    width: 40%;
     background-color: white;
 
 }
@@ -1190,96 +1262,113 @@ a {
     .contactusformcontainer {
         width: 50%;
 
-    
+
     }
 
 
 }
+
 @media (min-width:250px) and (max-width:500px) {
     .contactusformcontainer {
         width: 60%;
         background-color: white;
-    
+
     }
+
     .contactusfirstcontainerheading {
         font-size: 150%;
 
     }
 
 }
+
 /* ******************************Footer section last one  */
-.footersection{
+.footersection {
     background-color: #FC4311;
     padding-top: 3%;
     display: flex;
     justify-content: center;
     padding-bottom: 3%;
 }
-.mainfootermain{
+
+.mainfootermain {
     width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: start;
 }
-.footersectionmaincontainer{
+
+.footersectionmaincontainer {
     width: 13%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 5%;
 }
-.footersectionmaincontainerfirst{
+
+.footersectionmaincontainerfirst {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.footersectionmaincontainerfirsticon{
+
+.footersectionmaincontainerfirsticon {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 10%;
 }
-.footersectionmaincontainerfirsticonfb{
+
+.footersectionmaincontainerfirsticonfb {
     width: 90%;
 }
-.footersectionmaincontainerfirstemail{
+
+.footersectionmaincontainerfirstemail {
     margin-top: 10%;
 }
-.footersectionmaincontainerfirstemail input{
+
+.footersectionmaincontainerfirstemail input {
     padding: 5%;
     border: 1px solid grey;
 }
-.footersectionmaincontainerfirstemail input:focus{
+
+.footersectionmaincontainerfirstemail input:focus {
     outline: none;
 }
-.footersectionmaincontainerfirstbutton{
+
+.footersectionmaincontainerfirstbutton {
     margin-top: 5%;
 }
-.footersectionmaincontainerfirstbutton button{
+
+.footersectionmaincontainerfirstbutton button {
     padding: 4% 11% 4% 11%;
     background-color: #000000;
     color: #FC4311;
     font-size: 120%;
     border: 0px;
 }
-.footersectionmaincontainerfirstbutton button:hover{
+
+.footersectionmaincontainerfirstbutton button:hover {
     background-color: white;
 }
+
 @media (min-width:900px) and (max-width:1150px) {
-    .mainfootermain{
+    .mainfootermain {
         width: 80%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    .footersectionmaincontainer{
+
+    .footersectionmaincontainer {
         margin-left: 0% !important;
     }
 
 
 }
+
 @media (min-width:250px) and (max-width:900px) {
-    .mainfootermain{
+    .mainfootermain {
 
         display: flex;
         flex-direction: column;
@@ -1288,40 +1377,45 @@ a {
 
 
     }
-    .footersectionmaincontainer{
+
+    .footersectionmaincontainer {
         margin-top: 5%;
         display: flex;
         align-items: flex-start;
         width: 40%;
     }
-    .footersectionmaincontainerfirstemail input{
+
+    .footersectionmaincontainerfirstemail input {
         width: 120%;
 
-    }}
-    
-    @media (min-width:250px) and (max-width:464px) {
-        .mainfootermain{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-    
-        }
-        .footersectionmaincontainer{
-            display: flex;
-            align-items: flex-start;
-            margin-top: 5%;
-            width: 30%;
-        }
-        .footersectionmaincontainerfirstemail input{
-            width: 120%;
-    
-        }
-    
+    }
+}
+
+@media (min-width:250px) and (max-width:464px) {
+    .mainfootermain {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .footersectionmaincontainer {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 5%;
+        width: 30%;
+    }
+
+    .footersectionmaincontainerfirstemail input {
+        width: 120%;
+
+    }
+
 }
 
 /*********** copy right div section */
 
-.copyright{
+.copyright {
     padding-top: 1%;
     display: flex;
     justify-content: center;
@@ -1329,7 +1423,8 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.copyright p{
+
+.copyright p {
     text-align: center;
-  
+
 }
