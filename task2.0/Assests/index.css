@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+i{
+    color: #FF6600;
+}
+h5{
+    color: #FF6600;
+    padding: 5%;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+
+}
+h1{
+    font-weight: 700 !important;
+    font-size: 2.2rem;
+    color:  #44425A;
+    line-height: 1.2;
+    font-family: "Poppins", sans-serif;
+}
+.headercontainerfirst .colora{
+    color: #44425A;
+}
+.header{
+    padding-bottom: 1%;
+    border-bottom: 1px dotted rgb(204, 200, 200);
+}
+.marginheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+
+}
+.headercontainer{
+    width: 30%;
+    padding-left: 3%;
+}
+.secoundcontainer{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secoundcontainerfirst{
+
+    display: flex;
+    flex-direction: row;
+}
+.secoundcontainericon{
+    margin-right: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #FF6600;
+}
+.secoundcontainertextfirst{
+    margin-bottom: 3%;
+    line-height: 1.5;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+@media (min-width:250px) and (max-width:900px) {
+    .secoundcontainer{
+        width: 0%;
+        display: none;
+    }
+}
+/* navbar starts here */
+.navbar{
+    margin-top: 1%;
+}
+.navbarfirstmaincontainer{
+    position: relative;
+    width: 20%;
+    margin-left: 3%;
+}
+.navbarfirstcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.navbarfirstcontainerheading{
+    margin-right: 50%;
+}
+.navbarcollopsecontainer{
+    position: absolute;
+    width: 90%;
+    top: 98%;
+    display: none;
+}
+.navbarcollopsecontaineritems{
+    display: flex;
+    flex-direction: column;
+}
+.navbarcollopsecontaineritems a{
+    padding: 3% 5% 3% 5%;
+    border-bottom: 1px dotted rgb(235, 224, 224);
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+
+}
+.navbarcollopsecontaineritems a:hover{
+    color: #FF6600;
+}
+.navbarfirstmaincontainer:hover .navbarcollopsecontainer{
+    display: block;
+}
+
+.navbarcollopsecontaineritemscollapse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dotted rgb(235, 224, 224);
+    position: relative;
+}
+.navbarcollopsecontaineritemscollapseinternal{
+    display: flex;
+    flex-direction: column;
+}
+.navbarcollopsecontaineritemscollapseinternaledit{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    background-color:#E4F6F8;
+    display: none;
+    top: 18%;
+ 
+}
+.navbarcollopsecontaineritemscollapseinternal a{
+    padding: 2% 5% 2% 5% !important;
+    display: block !important;
+}
+.navbarcollopsecontaineritems:hover  .navbarcollopsecontaineritemscollapseinternaledit{
+    display: block !important;
+}
