@@ -5,6 +5,8 @@
 a{
     text-decoration: none;
     color: black;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
 }
 i{
     color: #FF6600;
@@ -74,7 +76,9 @@ h1{
 }
 /* navbar starts here */
 .navbar{
-    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+
 }
 .navbarfirstmaincontainer{
     position: relative;
@@ -85,7 +89,11 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color:#ecebf3;
 
+}
+.navbarfirstcontainer:hover{
+    background-color: #D2CFE7;
 }
 .navbarfirstcontainerheading{
     margin-right: 50%;
@@ -132,13 +140,83 @@ h1{
     z-index: 2;
     background-color:#E4F6F8;
     display: none;
-    top: 18%;
+    top: 99%;
  
 }
 .navbarcollopsecontaineritemscollapseinternal a{
     padding: 2% 5% 2% 5% !important;
     display: block !important;
 }
-.navbarcollopsecontaineritems:hover  .navbarcollopsecontaineritemscollapseinternaledit{
+.navbarcollopsecontaineritemsedit{
+    position: relative;
+
+}
+.navbarcollopsecontaineritemsedit:hover  .navbarcollopsecontaineritemscollapseinternaledit{
     display: block !important;
+}
+.navbarsecoundmaincontainer{
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarsecoundmaincontainerlinks{
+width: 70%;
+display: flex;
+align-items: center;
+flex-direction: row;
+
+}
+.navbarsecoundmaincontainerlinks a{
+    margin-left: 5%;
+}
+.containnavbarsecoundmaincontainerlinksblog1{
+    position: relative;
+    margin-left: 5%;
+    width: 7%;
+}
+
+.containnavbarsecoundmaincontainerlinksblog{
+    width: 100%;
+}
+.navbarsecoundmaincontainerlinksblog{
+    
+    width: 100%;
+}
+.navbarsecoundmaincontainerlinksblog a{
+    width: 100%;
+}
+.navbarsecoundmaincontainerlinkscollapseblognone{
+    display: none;
+  
+}
+.navbarsecoundmaincontainerlinkscollapseblog{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 95%;
+    left: 5%;
+    width: 180%;
+
+}
+
+.navbarsecoundmaincontainerlinkscollapseblog a{
+    padding: 7% 5% 7% 5% !important;
+}
+.containnavbarsecoundmaincontainerlinksblog1:hover .navbarsecoundmaincontainerlinkscollapseblognone{
+    display: block;
+}
+.navbarsecoundmaincontainerbutton{
+    margin-right: 1%;
+    width: auto;
+}
+.mainbutton{
+    background-color: #FF6600;
+    color: white;
+    border: 0px;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+
+    font-size: 100%;
+    border-radius: 0.5rem;
 }
