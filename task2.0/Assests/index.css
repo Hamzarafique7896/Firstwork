@@ -25,6 +25,9 @@ h1{
     line-height: 1.2;
     font-family: "Poppins", sans-serif;
 }
+.headercontainerfirst{
+cursor: pointer;
+}
 .headercontainerfirst .colora{
     color: #44425A;
 }
@@ -37,11 +40,12 @@ h1{
     flex-direction: row;
     align-items: center;
     height: 10vh;
+    margin-top: 1%;
 
 }
 .headercontainer{
     width: 30%;
-    padding-left: 3%;
+    padding-left: 4.5%;
 }
 .secoundcontainer{
     width: 70%;
@@ -64,7 +68,6 @@ h1{
 .secoundcontainertextfirst{
     margin-bottom: 3%;
     line-height: 1.5;
-    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -78,31 +81,36 @@ h1{
 .navbar{
     display: flex;
     flex-direction: row;
+    margin-top: 2%;
 
+}
+.navbar i{
+    font-size: 0.75em !important;
 }
 .navbarfirstmaincontainer{
     position: relative;
-    width: 20%;
-    margin-left: 3%;
+    width: 21%;
+    margin-left: 5%;
 }
 .navbarfirstcontainer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color:#ecebf3;
 
 }
 .navbarfirstcontainer:hover{
     background-color: #D2CFE7;
 }
 .navbarfirstcontainerheading{
-    margin-right: 50%;
+    margin-right: 30%;
 }
 .navbarcollopsecontainer{
     position: absolute;
     width: 90%;
-    top: 98%;
-    display: none;
+    top: 95%;
+display: none;
+    background-color: white;
+    z-index: 200;
 }
 .navbarcollopsecontaineritems{
     display: flex;
@@ -155,14 +163,14 @@ h1{
     display: block !important;
 }
 .navbarsecoundmaincontainer{
-    width: 73%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .navbarsecoundmaincontainerlinks{
-width: 70%;
+width: 80%;
 display: flex;
 align-items: center;
 flex-direction: row;
@@ -174,7 +182,7 @@ flex-direction: row;
 .containnavbarsecoundmaincontainerlinksblog1{
     position: relative;
     margin-left: 5%;
-    width: 7%;
+    width: 12%;
 }
 
 .containnavbarsecoundmaincontainerlinksblog{
@@ -195,28 +203,212 @@ flex-direction: row;
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 95%;
-    left: 5%;
+    top: 99.9%;
+    left: -20%;
     width: 180%;
-
+    z-index: 10;
+    background-color: white;
 }
 
 .navbarsecoundmaincontainerlinkscollapseblog a{
-    padding: 7% 5% 7% 5% !important;
+    padding: 7% 0% 7% 5% !important;
+    margin: 0% !important;
+}
+.navbarsecoundmaincontainerlinkscollapseblog a:active{
+    background-color: #FF6600;
+    color: white;
 }
 .containnavbarsecoundmaincontainerlinksblog1:hover .navbarsecoundmaincontainerlinkscollapseblognone{
     display: block;
 }
 .navbarsecoundmaincontainerbutton{
-    margin-right: 1%;
-    width: auto;
+    width: 20%;
+    display: flex;
+    justify-content: end;
 }
 .mainbutton{
     background-color: #FF6600;
     color: white;
     border: 0px;
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
-
+    padding: 0.75rem 1.5rem 0.75rem 1.5rem;
     font-size: 100%;
     border-radius: 0.5rem;
+    cursor: pointer;
+}
+@media (min-width:250px) and (max-width:990px) {
+    .navbar{
+        width: 0%;
+        display: none;
+    }
+}
+/* ***********navsection background img */
+
+
+.navsectionbackgroundimg img{
+
+    min-height: 300px;
+    width: 100%;
+
+    
+}
+.navsectionbackgroundimgouterdiv{
+    position: absolute;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    min-height:  100%;
+    top: 0;
+}
+.navsectionbackgroundimginnerdiv{
+    width: 900px;
+    text-align: left;
+    margin-bottom: 1.5em;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.navsectionbackgroundimginnerdiv h5{
+    padding: 0%;
+    color: white;
+}
+.navsectionbackgroundimginnerdiv h1{
+    color: white;
+    font-size: 4.5em;
+    padding: 1% 1% 1% 0%;
+}
+
+
+.maindivforbackimgdiv{
+display: flex;
+flex-direction: column;
+justify-content: start;
+
+}
+.maindivforbackimgdiv ol{
+    position: absolute;
+    height: 100%;
+    left: 1%;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+z-index: 15;
+list-style: none;
+
+   
+}
+.maindivforbackimgli{
+    width: 25px;
+    height: 25px;
+    background-color: #FF6600;
+    border-radius: 25px;
+    border: 5px solid white;
+    cursor: pointer;
+}
+.maindivforbackimgli1{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: 5px solid #7F878B;
+    background-color: #423E46;
+    cursor: pointer;
+}
+.maindivforbackimgli2{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: 5px solid #7F878B;
+    background-color: #423E46;
+    cursor: pointer;
+}
+.maindivforbackimgdivbackopac{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    top: 0;
+}
+.maindivforbackimg{
+    width: 100%;
+    height: auto; 
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    }
+.navsectionbackgroundimg {
+    width: 100%;
+}
+.navsectionbackgroundimg img{
+    width: 100%;
+    float: left;
+}
+.navsectionbackgroundimgopacityfirst{
+    display: block;
+}
+.navsectionbackgroundimgopacitysecound{
+    display: none;
+}
+.navsectionbackgroundimgopacitysecound img{
+    z-index: 1;
+}
+.navsectionbackgroundimgopacity{
+    display: none;
+}
+@media (min-width:700px) and (max-width:1000px) {
+    .navsectionbackgroundimginnerdiv{
+        width: 80%;
+        text-align: left;
+        margin-bottom: 1.5em;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navsectionbackgroundimginnerdiv h5{
+        padding: 0%;
+        color: white;
+    }
+    .navsectionbackgroundimginnerdiv h1{
+        color: white;
+        font-size: 4.5em;
+        padding: 1% 1% 1% 0%;
+    }
+}
+@media (min-width:400px) and (max-width:700px) {
+    .navsectionbackgroundimginnerdiv{
+        width: 80%;
+        margin-left: 5%;
+
+    }
+    .navsectionbackgroundimginnerdiv h5{
+        padding: 0%;
+        color: white;
+    }
+    .navsectionbackgroundimginnerdiv h1{
+        color: white;
+        font-size: 2em;
+        padding: 1% 1% 1% 0%;
+    }
+}
+@media (min-width:250px) and (max-width:400px) {
+    .navsectionbackgroundimginnerdiv{
+        width: 80%;
+        margin-left: 15%;
+
+    }
+    .navsectionbackgroundimginnerdiv h5{
+        padding: 0%;
+        font-size: 1em !important;
+        color: white;
+    }
+    .navsectionbackgroundimginnerdiv h1{
+        color: white;
+        font-size: 1.75em;
+        padding: 1% 1% 1% 0%;
+    }
 }
