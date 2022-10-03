@@ -508,7 +508,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4%;
+    margin-top: 8%;
     padding-bottom: 10%;
 }
 
@@ -521,6 +521,7 @@ h2 {
 }
 
 .aboutsectionmaincontainersecound {
+    margin-top: 5%;
     width: 80%;
     height: 80%;
     display: flex;
@@ -529,20 +530,24 @@ h2 {
 
 .aboutsectionmaincontainersecoundmaindiv {
     display: flex;
-    justify-content: center;
     align-items: center;
+    width: 45%;
+    
 }
 
 .aboutsectionmaincontainersecoundfirstdiv {
     height: 100%;
-    width: 100%;
+    width: 95%;
     border-radius: 1rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    
 }
 
 .aboutsectionmaincontainersecoundfirstdiv img {
-    width: 95%;
+    width: 100%;
     height: 100%;
-    margin: 0% 2% 0% 2%;
     border-radius: 1rem;
 }
 
@@ -551,6 +556,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 2%;
 }
 
 .aboutsectionmaincontainersecoundsecounddivinner {
@@ -620,6 +626,7 @@ h2 {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .aboutsectionmaincontainersecoundfirstdiv {
@@ -629,9 +636,9 @@ h2 {
     }
 
     .aboutsectionmaincontainersecoundfirstdiv img {
-        width: 95%;
+        width: 80%;
         height: 100%;
-        margin: 0% 2% 0% 2%;
+        margin: 0% 0% 0% 0%;
         border-radius: 1rem;
     }
 
@@ -658,7 +665,22 @@ h2 {
 
     .aboutsectionmaincontainersecoundsecounddivinner {
         height: 100%;
-        margin: 0% 2% 0% 2%;
+    }
+    .aboutsectionmaincontainersecoundsecounddiv {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0%;
+    }
+    .aboutsectionmaincontainersecoundfirstdiv {
+        height: 100%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 2%;
+        
+        
     }
 
 }
