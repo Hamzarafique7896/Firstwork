@@ -1744,9 +1744,8 @@ margin-bottom: 7%;
     width: 100%;
 }
 .footersectioninnerthirdinput input{
-
-    padding: 5.5%;
-    width: 80%;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    width: 100%;
     border: 0px;
 
 }
@@ -1761,7 +1760,8 @@ margin-bottom: 7%;
     background-color: var(--ornage);
     color: var(--white);
     border: 0px;
-    padding: 1.55rem 3rem 1.3rem 3rem;
+    /* padding: 1.55rem 3rem 1.3rem 3rem; */
+    padding: 1.55rem 3rem 1.5rem 3rem;
    left: 20%;
     font-size: 100%;
    
@@ -1803,25 +1803,32 @@ margin-bottom: 7%;
     text-decoration: underline;
     color: #b34700;
 }
+
+
+.adj{
+
+    position: sticky;
+}
 .backup-up{
     position: absolute;
     width: 46px;
     height: 46px;
-    bottom: 30px;
+    bottom: 40px;
     right: 20px;
     background-color: var(--coloricon);
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     transition: 2s;
     border-radius: 0.4rem;
+    z-index: 1000000;
 }
+
 .backup-up i{
     color: var(--white);
 }
-.adj{
-    position: relative;
-}
+
+
 
 @media (min-width:767px) and (max-width:1000px){
     .footersectionmaindiv{
