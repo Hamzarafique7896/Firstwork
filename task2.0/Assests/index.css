@@ -148,7 +148,7 @@ h2 {
 
 .navbarcollopsecontainer {
     position: absolute;
-    width: 90%;
+    width: 100%;
     top: 95%;
     display: none;
     background-color: var(--white);
@@ -178,7 +178,7 @@ h2 {
     display: block;
 }
 
-.navbarcollopsecontaineritemscollapse {
+.navbarcollopsecontaineritemscollapseinternal {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
