@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-height: auto;
+    height: auto;
     width: 27.625em;
     border-radius: 2rem;
     padding: 1%;
@@ -92,9 +92,6 @@ height: auto;
     box-shadow:0px 0px 1px 2px var(--coloricon) ;
 }
 .signbutton{
-    /* margin-top: 1.313em;
-    width: 27.1em;
-    text-align: center; */
     display: flex;
     justify-content: center;
     margin-top: 10%;
@@ -102,16 +99,6 @@ height: auto;
 
 }
 .signbutton button{
-    /* background-color: var(  --coloricon);
-    width: auto;
-    border-radius: 0.5rem;
-    color: var(  --white);
-    font-size: 150%;
-    padding-left: 5.59em;
-    padding-right: 5.59em;
-    padding-top: 0.65em;
-    padding-bottom: 0.65em;
-    border: 0px; */
     width: auto;
     padding: 1rem 5rem 1rem 5rem !important;
 
@@ -160,7 +147,6 @@ height: auto;
    
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     height: 10%;
    
 
@@ -191,3 +177,131 @@ height: auto;
 .logup button a{
     color: var(--white);
 }
+
+
+@media (min-width:464px) and (max-width:515px) {
+
+
+    .signbackcol{
+        width: 100%;
+    }
+    .signbackcoladj{
+        padding: 0%;
+        width: 100%;
+    }
+    
+    .signlogo{
+        width: 100%;
+      
+    }
+
+    .signinput{
+        width: 100%;
+    
+    } 
+    .signinput div{
+        width: 100%;
+    }
+    .signinput input{
+        width:  82%;
+
+    }
+    .logup{
+        width: 100%;
+    
+    }
+    }
+    @media (min-width:250px) and (max-width:464px) {
+
+
+        .signbackcol{
+            width: 100%;
+        }
+        .signbackcoladj{
+            padding: 0%;
+            width: 100%;
+        }
+        
+        .signlogo{
+            width: 100%;
+          
+        }
+
+        .signinput{
+            width: 100%;
+        
+        } 
+        .signinput div{
+            width: 100%;
+        }
+        
+        .signinput input{
+            width:  77%;
+        }
+        .logup{
+            width: 100%;
+        
+        }
+        }
+        @media (min-width:324px) and (max-width:380px) {
+
+            .signbackcol{
+                width: 100%;
+            }
+            .signbackcoladj{
+                padding: 0%;
+                width: 100%;
+            }
+            
+            .signlogo{
+                width: 100%;
+              
+            }
+
+            .signinput{
+                width: 100%;
+            
+            } 
+            .signinput div{
+                width: 100%;
+            }
+            
+            .signinput input{
+                width:  74%;
+            }
+            .logup{
+                width: 100%;
+            
+            }
+            }
+            @media (min-width:280px) and (max-width:324px) {
+
+                .signbackcol{
+                    width: 100%;
+                }
+                .signbackcoladj{
+                    padding: 0%;
+                    width: 100%;
+                }
+                
+                .signlogo{
+                    width: 100%;
+                  
+                }
+
+                .signinput{
+                    width: 100%;
+                
+                } 
+                .signinput div{
+                    width: 100%;
+                }
+                .signinput input{
+                    width:  70%;
+                }
+
+                .logup{
+                    width: 100%;
+                
+                }
+                }
