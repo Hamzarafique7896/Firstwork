@@ -183,8 +183,11 @@ height: auto;
 .logup a{
     text-decoration: none;
 }
-.logup a button{
+.logup button{
     margin-top: 5%;
     padding: 0.25rem 0.5rem 0.25rem 0.5rem;
     
+}
+.logup button a{
+    color: var(--white);
 }
