@@ -1072,6 +1072,7 @@ h1{
 .servicesseaction {
     margin-top: 5%;
 
+
 }
 
 .servicefirstcontainer {
@@ -1081,6 +1082,11 @@ h1{
     align-items: center;
     flex-direction: column;
     margin-bottom: 2%;
+}
+.servicefirstcontaineradj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .servicefirstcontainerheading {
