@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.signin{
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.signback{
+    width: 80%;
+    height: auto;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+   
+ 
+}
+
+.signbackcol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+height: auto;
+    width: 27.625em;
+    border-radius: 2rem;
+    padding: 1%;
+    background-color: var( --colorcourse);
+}
+.signbackcoladj{
+    padding: 1%;
+}
+
+.signlogo{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14.375em;
+    font-size: 130%; 
+    /* padding: 5%; */
+}
+
+.signinput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100%;
+
+} 
+.signinput div{
+    width: 100%;
+}
+.signinput form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inoutadj{
+    margin-top: 5%;
+}
+.signinput i{
+    position: absolute;
+    font-size: 1.5em;
+    margin-top: 0.65em;
+    margin-left: 0.5em;
+    color: rgb(219, 211, 211);
+}
+
+.signinput input{
+    width: 85%;
+    padding: 1.5em 1.5em 1.5em 3.3em;
+    border-radius: 0.5rem;
+    border: 0px;
+
+    
+}
+.signinput input::placeholder{
+    margin-left: 10%;
+    
+}
+.signinput input:focus{
+    outline: none;
+    box-shadow:0px 0px 1px 2px var(--coloricon) ;
+}
+.signbutton{
+    /* margin-top: 1.313em;
+    width: 27.1em;
+    text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 100%;
+
+}
+.signbutton button{
+    /* background-color: var(  --coloricon);
+    width: auto;
+    border-radius: 0.5rem;
+    color: var(  --white);
+    font-size: 150%;
+    padding-left: 5.59em;
+    padding-right: 5.59em;
+    padding-top: 0.65em;
+    padding-bottom: 0.65em;
+    border: 0px; */
+    width: auto;
+    padding: 1rem 5rem 1rem 5rem !important;
+
+}
+.signup{
+    height: 8.626em;
+    width: 27.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.signup a {
+    text-decoration: none;
+    color: var(  --coloricon);
+    font-size: 120%;
+
+}
+/* <!-- Secound sign in form --> */
+.signbackcol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adjlogin{
+    width: 85%;
+}
+.checkbox{
+    width: 27.1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.remember{
+    width: 10%!important;
+}
+.remember:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.checkmanage{
+   
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    height: 10%;
+   
+
+}
+.checkmanagep{
+    width: 10em;
+    color: grey;
+}
+
+.logup{
+    width: 27.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8.626em;
+
+}
+
+.logup a{
+    text-decoration: none;
+}
+.logup a button{
+    margin-top: 5%;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    
+}
