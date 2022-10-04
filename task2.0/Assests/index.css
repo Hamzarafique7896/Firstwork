@@ -249,7 +249,7 @@ h2 {
     display: flex;
     justify-content: space-around ;
     height: 100%;
-    min-width: 6%;
+    min-width: 7%;
 }
 
 .containnavbarsecoundmaincontainerlinksblog {
@@ -325,6 +325,34 @@ h2 {
 .mainbutton:hover{
     background-color: var(--lightorange);
 }
+@media (min-width:990px) and (max-width:1200px) {
+
+.containnavbarsecoundmaincontainerlinksblog1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    height: auto;
+    width:auto ;
+    display: flex;
+    justify-content: space-around ;
+    height: 100%;
+    min-width: 7%;
+}
+}
+@media (min-width:990px) and (max-width:1080px) {
+
+    .containnavbarsecoundmaincontainerlinksblog1 {
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        height: auto;
+        width:auto ;
+        display: flex;
+        justify-content: space-around ;
+        height: 100%;
+        min-width: 8%;
+    }
+    }
 
 @media (min-width:250px) and (max-width:990px) {
     .navbar {
