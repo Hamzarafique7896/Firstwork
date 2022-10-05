@@ -174,9 +174,21 @@ h2 {
 .navhvera:hover .navhveri{
     color: var(--ornage) !important;
 }
+.navhvera:hover .navhverii{
+    color: var(--ornage);
+}
+
 .navbarfirstmaincontainer:hover .navbarcollopsecontainer {
     display: block;
 }
+.navbarcollopsecontaineritemscollapse i{
+    color: var(--black);
+}
+
+/* 
+.navbarcollopsecontaineritemscollapse i{
+    margin-right: 30%;
+} */
 
 .navbarcollopsecontaineritemscollapseinternal {
     display: flex;
@@ -250,6 +262,7 @@ h2 {
     justify-content: space-around ;
     height: 100%;
     min-width: 7%;
+    max-width: 7%;
 }
 
 .containnavbarsecoundmaincontainerlinksblog {
