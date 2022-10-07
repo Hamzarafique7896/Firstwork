@@ -105,19 +105,48 @@ h2 {
     line-height: 1.5;
     font-weight: bold;
 }
+.hamburger{
+    position: absolute;
+    right: 4.5%;
+    display: flex;
+   
+}
+.hamburger input{
+    display: none;
+}
+.hamburgerinner{
+    background-color:  var(--colorcourse);
+    padding: 1%;
+}
+.hamburger label{
 
-@media (min-width:250px) and (max-width:900px) {
+    width: auto;
+    height: 2em;
+    display: none;
+}
+.hamburger i{
+    font-size: 2em;
+    color: black;
+}
+
+@media (min-width:250px) and (max-width:1000px) {
     .secoundcontainer {
         width: 0%;
         display: none;
     }
+    .hamburger label{
+
+        display: block;
+    }
 }
+
+
 
 /* navbar starts here */
 .navbar {
     display: flex;
     flex-direction: row;
-   padding-top: 1%;
+    padding-top: 1%;
 
 }
 
@@ -185,11 +214,6 @@ h2 {
     color: var(--black);
 }
 
-/* 
-.navbarcollopsecontaineritemscollapse i{
-    margin-right: 30%;
-} */
-
 .navbarcollopsecontaineritemscollapseinternal {
     display: flex;
     flex-direction: row;
@@ -240,29 +264,33 @@ h2 {
     display: flex;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     height: 100%;
 
 }
+.navbarsecoundmaincontainerlinks ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
+}
+.navbarsecoundmaincontainerlinks ul li{
+    width: 50px !important;
+}
+
 
 .navbarsecoundmaincontainerlinks a {
-    margin-left: 5%;
-    height: 100%;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .containnavbarsecoundmaincontainerlinksblog1 {
-    margin-left: 5%;
-    margin-right: 5%;
     position: relative;
-    height: auto;
-    width:auto ;
     display: flex;
-    justify-content: space-around ;
-    height: 100%;
-    min-width: 7%;
-    max-width: 7%;
+
+
 }
 
 .containnavbarsecoundmaincontainerlinksblog {
@@ -291,22 +319,24 @@ h2 {
 
 .navbarsecoundmaincontainerlinkscollapseblognone {
     display: none;
+    position: absolute;
 
+    top: 99.9%;
+    z-index: 10;
+   
 }
 
 .navbarsecoundmaincontainerlinkscollapseblog {
-    position: absolute;
+
     display: flex;
     flex-direction: column;
-    top: 99.9%;
-    left: -20%;
     width: 250%;
-    z-index: 10;
     background-color: var(--white);
+
 }
 
 .navbarsecoundmaincontainerlinkscollapseblog a {
-    padding: 7% 0% 7% 5% !important;
+    padding: 12% 0% 12% 0% !important;
     margin: 0% !important;
 }
 
@@ -352,7 +382,7 @@ h2 {
     min-width: 7%;
 }
 }
-@media (min-width:990px) and (max-width:1080px) {
+@media (min-width:1000px) and (max-width:1080px) {
 
     .containnavbarsecoundmaincontainerlinksblog1 {
         margin-left: 5%;
@@ -367,11 +397,57 @@ h2 {
     }
     }
 
-@media (min-width:250px) and (max-width:990px) {
-    .navbar {
-        width: 0%;
-        display: none;
+@media (min-width:250px) and (max-width:1000px) {
+    .navbarsecoundmaincontainerlinks {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100%;
+    
     }
+    .navbarfirstmaincontainer {
+        display: none !important;
+        width: 0%;
+
+    }
+    .navbarsecoundmaincontainerbutton{
+        display: none;
+        width: 0%;
+    }
+    .navbarsecoundmaincontainer {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navbarsecoundmaincontainerlinks ul{
+        margin-left: 4.5%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 5%;
+    
+    }
+    .navbarsecoundmaincontainerlinks ul li{
+        width: 60px !important;
+        text-align: left;
+    }
+    .navbarsecoundmaincontainerlinks a {
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+
+    .header{
+        position: relative;
+    }
+
+
 }
 
 /* ***********navsection background img */
@@ -752,6 +828,11 @@ h2 {
         
         
     }
+    .navbarsecoundmaincontainer {
+        width: 100%;
+
+    }
+    
 
 }
 
