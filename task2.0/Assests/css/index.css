@@ -2001,3 +2001,526 @@ margin-bottom: 7%;
 
 
 
+
+
+/* *******************************aBOUTus********************************************** */
+
+:root {
+    --white: white;
+    --coloricon: #FF6600;
+    --black: black;
+    --ornage: #FF6600;
+    --heading1: #44425A;
+    --lightgrey: #7F878B;
+    --darkgrey: #423E46;
+    --colorcourse: #F2F1F8;
+
+}
+
+.upperpageback{
+
+    height: 35vh;
+    background-image: url(../images/page-header.jpg);
+
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+   
+}
+.backdimguppersection{
+   position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    color: black;
+    width: 100%;
+    height:  100%;
+    top: 0;
+}
+.backdimguppersectiontext{
+    width: 80%;
+}
+.backdimguppersectiontextadj{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backdimguppersectiontext h1{
+    color: var(--white);
+    font-weight: 800;
+    font-size: 3em;
+}
+.backdimguppersectiontext span{
+    color: var(--white);
+    margin-left: 1%;
+}
+.backdimguppersectiontext i{
+    color: var(--white);
+}
+.backdimguppersectiontextspan{
+    margin-top: 1%;
+ 
+}
+/* edit for the about section */
+@media (min-width:300px) and (max-width:1000px) {
+    .aboutsectionmaincontainersecound {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutsectionmaincontainersecoundmaindiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .aboutsectionmaincontainersecoundfirstdiv {
+        height: 100%;
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    .aboutsectionmaincontainersecoundfirstdiv img {
+        width: 80%;
+        height: 100%;
+        margin: 0% 0% 0% 0%;
+        border-radius: 1rem;
+    }
+
+    .aboutsection {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10%;
+        padding-top: 5% !important;
+    }
+
+    .aboutsectionmaincontainer {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutsectionmaincontainersecoundsecounddiv {
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    .aboutsectionmaincontainersecoundsecounddivinner {
+        height: 100%;
+    }
+    .aboutsectionmaincontainersecoundsecounddiv {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0%;
+    }
+    .aboutsectionmaincontainersecoundfirstdiv {
+        height: 100%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 2%;
+        
+        
+    }}
+
+
+    /* *******************************CONTACTus********************************************** */
+
+    .contactsection{
+        margin-top: 12%;
+    }
+    .contactsectionfirstdiv{
+        margin-bottom: 3%;
+    }
+    .contactsectionsecounddiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .contactsectionsecoundinner{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactsectionsecoundinnermost{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactsectionsecoundformouter{
+    width: 95%;
+    border-radius: 0.5rem;
+    background-color: var( --colorcourse);
+    }
+    .contactsectionsecoundform{
+    padding: 5% 5% 5% 5%;
+    
+    }
+    .contactsectionsecoundform form{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    .controlgroup{
+        width: 100%;
+    }
+    .contactsectionsecoundform form input{
+    
+        padding: 1.5rem;
+        border-radius: 0.35rem;
+        margin-top: 2%;
+        border: 0px;
+    }
+    .contactsectionsecoundform form input:focus{
+        outline: none;
+        box-shadow:0px 0px 1px 2px var(--coloricon) ;
+    }
+    .contactsectionsecoundform form textarea{
+    
+        padding: 1.5rem;
+        border-radius: 0.35rem;
+        margin-top: 2%;
+        border: 0px;
+    }
+    .contactsectionsecoundform form textarea:focus{
+        outline: none;
+        box-shadow:0px 0px 1px 2px var(--coloricon) !important;
+    }
+    .contactbuttonadj{
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+        width: 100%;
+    }
+    .contactbutton{
+        width: auto;
+        padding: 1rem 3rem 1rem 3rem !important;
+    }
+
+
+        /* *******************************CONTACTus********************************************** */
+
+
+
+        .signin{
+        
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        
+        
+        }
+        .signback{
+            width: 80%;
+            height: auto;
+            padding: 3%;
+            display: flex;
+            justify-content: center;
+           
+         
+        }
+        
+        .signbackcol{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            height: auto;
+            width: 27.625em;
+            border-radius: 2rem;
+            padding: 1%;
+            background-color: var( --colorcourse);
+        }
+        .signbackcoladj{
+            padding: 1%;
+        }
+        
+        .signlogo{
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 11em;
+            font-size: 130%; 
+            /* padding: 5%; */
+        }
+        
+        .signinput{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: auto;
+            width: 100%;
+        
+        } 
+        .signinput div{
+            width: 100%;
+        }
+        .signinput form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .inoutadj{
+            margin-top: 5%;
+        }
+        .signinput i{
+            position: absolute;
+            font-size: 1.5em;
+            margin-top: 0.65em;
+            margin-left: 0.5em;
+            color: rgb(219, 211, 211);
+        }
+        
+        .signinput input{
+            width: 85%;
+            padding: 1.5em 1.5em 1.5em 3.3em;
+            border-radius: 0.5rem;
+            border: 0px;
+        
+            
+        }
+        .signinput input::placeholder{
+            margin-left: 10%;
+            
+        }
+        .signinput input:focus{
+            outline: none;
+            box-shadow:0px 0px 1px 2px var(--coloricon) ;
+        }
+        .signbutton{
+            display: flex;
+            justify-content: center;
+            margin-top: 10%;
+            width: 100%;
+        
+        }
+        .signbutton button{
+            width: auto;
+            padding: 1rem 5rem 1rem 5rem !important;
+        
+        }
+        .signup{
+            height: 8.626em;
+            width: 27.1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .signup a {
+            text-decoration: none;
+            color: var(  --coloricon);
+            font-size: 120%;
+        
+        }
+        /* <!-- Secound sign in form --> */
+        .signbackcol{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .adjlogin{
+            width: 85%;
+        }
+        .checkbox{
+            width: 27.1em;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+        
+        .remember{
+            width: 10%!important;
+        }
+        .remember:focus{
+            outline: none !important;
+            box-shadow: none !important;
+        }
+        
+        
+        .checkmanage{
+           
+            display: flex;
+            flex-direction: row;
+            height: 10%;
+           
+        
+        }
+        .checkmanagep{
+            width: 10em;
+            color: grey;
+        }
+        
+        .logup{
+            width: 27.1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 8.626em;
+        
+        }
+        
+        .logup a{
+            text-decoration: none;
+        }
+        .logup button{
+            margin-top: 5%;
+            padding: 0.35rem 0.5rem 0.35rem 0.5rem;
+            
+        }
+        .logup button a{
+            color: var(--white);
+        }
+        
+        
+        @media (min-width:464px) and (max-width:515px) {
+        
+        
+            .signbackcol{
+                width: 100%;
+            }
+            .signbackcoladj{
+                padding: 0%;
+                width: 100%;
+            }
+            
+            .signlogo{
+                width: 100%;
+              
+            }
+        
+            .signinput{
+                width: 100%;
+            
+            } 
+            .signinput div{
+                width: 100%;
+            }
+            .signinput input{
+                width:  82%;
+        
+            }
+            .logup{
+                width: 100%;
+            
+            }
+            }
+            @media (min-width:250px) and (max-width:464px) {
+        
+        
+                .signbackcol{
+                    width: 100%;
+                }
+                .signbackcoladj{
+                    padding: 0%;
+                    width: 100%;
+                }
+                
+                .signlogo{
+                    width: 100%;
+                  
+                }
+        
+                .signinput{
+                    width: 100%;
+                
+                } 
+                .signinput div{
+                    width: 100%;
+                }
+                
+                .signinput input{
+                    width:  77%;
+                }
+                .logup{
+                    width: 100%;
+                
+                }
+                }
+                @media (min-width:324px) and (max-width:380px) {
+        
+                    .signbackcol{
+                        width: 100%;
+                    }
+                    .signbackcoladj{
+                        padding: 0%;
+                        width: 100%;
+                    }
+                    
+                    .signlogo{
+                        width: 100%;
+                      
+                    }
+        
+                    .signinput{
+                        width: 100%;
+                    
+                    } 
+                    .signinput div{
+                        width: 100%;
+                    }
+                    
+                    .signinput input{
+                        width:  74%;
+                    }
+                    .logup{
+                        width: 100%;
+                    
+                    }
+                    }
+                    @media (min-width:280px) and (max-width:324px) {
+        
+                        .signbackcol{
+                            width: 100%;
+                        }
+                        .signbackcoladj{
+                            padding: 0%;
+                            width: 100%;
+                        }
+                        
+                        .signlogo{
+                            width: 100%;
+                          
+                        }
+        
+                        .signinput{
+                            width: 100%;
+                        
+                        } 
+                        .signinput div{
+                            width: 100%;
+                        }
+                        .signinput input{
+                            width:  70%;
+                        }
+        
+                        .logup{
+                            width: 100%;
+                        
+                        }
+                        }
+        
+    
+    
