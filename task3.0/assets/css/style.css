@@ -118,6 +118,27 @@ transition: 0.5s;
     color: var(--bs-dark);
     box-shadow: 1px 3px 8px 0px rgba(102,92,92,0.75);
 }
+
+/* css for round icon */
+.teama{
+    width: 47px !important;
+    height: 47px !important;
+    border-radius: 100rem;
+    background-color: var(--secondary);
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teama:hover{
+    background-color: #b8e978;
+    box-shadow: 1px 3px 8px 0px rgba(102,92,92,0.75);
+}
+.teama i{
+    color: var(--bs-white);
+    font-size: 1.5em;
+}
+
 /* ***********************************************here starts the sections*********************** */
 .navsectiondiv1{
     background-color: var(--primary);
@@ -260,7 +281,7 @@ display: none;
     align-items: center;
     color: var(--bs-white);
     transition: 0.5s;
-    padding: 25px;
+    padding: 30px 10px;
     font-size: 1.2em;
     border-bottom: 5px solid var(--bs-dark) ;
 }
@@ -1104,3 +1125,245 @@ width: 100%;
     }
     
 } 
+
+/* <!-- team members section starts here --> */
+.teamsection{
+    margin-top: 15%;
+}
+.teamdiv{
+    margin-top: 3%;
+    width: 100%;
+}
+.teamdivin{
+    display: flex;
+    justify-content: center;
+}
+.teamdivinner{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.teamdivfirst{
+    position: relative;
+    width: 32.5%;
+    height: 100% !important;
+    transition: 0.5s;
+}
+.teamdivfirst img{
+    width: 100%;
+    height: 100%;
+}
+.teamdivfirstinner{
+    background-image: url(../images/team.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top bottom;
+}
+
+
+/* here starts code for absolute team */
+.teamdivfirstinner{
+    position: absolute;
+    width: 80%;
+    bottom: -50px;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90px;
+    transition: 0.5s;
+}
+
+.teamdivfirst:hover .teamdivfirstinner{
+    bottom: 0px !important;
+    height: 100%;
+}
+.teamdivfirstinner:hover{
+    bottom: 0px !important;
+    height: 100%;
+}
+.teamdivfirstinner:hover .teamdivfirsticon{
+    display: block;
+}
+.teamdivfirst:hover .teamdivfirsticon{
+    display: block;
+}
+
+
+.teamdivfirstinneradj{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+.teamdivfirsticon{
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding: 20% 0% 0% 0%;
+}
+.teamdivfirsticoninner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.teamdivfirsttext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+.teamdivfirsttext h1{
+    margin-bottom: 3%;
+    margin-top: 2%;
+    font-size: 2em;
+    font-weight: 700;
+}
+.teamdivinner2adj{
+    display: flex;
+    width: 66% !important;
+    justify-content: space-between;
+}
+.inner2adj{
+    width: 49%;
+}
+@media (min-width:750px) and (max-width:1000px) {
+    .teamdivinner2adj{
+        display: flex;
+        width: 100% !important;
+        justify-content: space-between;
+    }
+    .inner2adj{
+        width: 49%;
+    }
+
+    .teamdivinner{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .teamdivfirst{
+        position: relative;
+        width: 49%;
+        height: 100% !important;
+        transition: 0.5s;
+    }
+    .thirdmargin{
+        margin-top: 70px;
+    }
+    
+} 
+@media (min-width:350px) and (max-width:749.99px) {
+    .teamdivinner{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .teamdivinner2adj{
+        display: flex;
+        width: 100% !important;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .inner2adj{
+        width: 100%;
+        margin-top: 70px;
+    }
+
+
+    .teamdivfirst{
+        position: relative;
+        width: 100%;
+        height: 100% !important;
+        transition: 0.5s;
+    }
+    .thirdmargin{
+        margin-top: 70px;
+    }
+    
+} 
+
+
+
+/* <!-- here starts the section for the testimonoles --> */
+.testimonoles{
+    margin-top: 15%;
+}
+.testimonoldivouter{
+    background-image: url(../images/testimonial.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    background-color: var(--primary);
+}
+.testimonoldiv{
+    display: flex;
+    justify-content: center ;
+}
+.testimonoldivinner{
+    width: 90%;
+    display: flex;
+    padding: 4%;
+}
+.testimonoladj{
+    width: 50%;
+}
+.testimonoltext{
+    width: 50%;
+    padding: 2%;
+}
+.testimonoltexth1{
+    padding: 2%;
+}
+.testimonoltexth1 h1{
+    font-weight: 600;
+}
+.testimonoltexthp{
+    padding: 2%;
+    line-height: 1.5;
+    font-size: 1.3em;
+}
+.testimonoltexthpers{
+    display: flex;
+    padding: 2%;
+}
+.testimonoltexthimg{
+    width: 10%;
+    border: 5px solid var(--secondary);
+}
+.testimonoltexthimg img{
+    width: 100%;
+    height: 100% !important;
+}
+.testimonoltexthcontact{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.testimonoltexthcontact h4{
+padding: 3% 0% 3% 0%;
+}
+.testimonoltexthcontact p{
+    padding: 3% 0% 3% 0%;
+    margin-bottom: 5%;
+    }
+.testimonoltextharrow{
+    display: flex;
+    padding: 2% 4% 0% 0%;
+}
+.margtest{
+    margin-left: 5% !important;
+
+}
+.margtest1{
+    margin-left: 2% !important;
+}
