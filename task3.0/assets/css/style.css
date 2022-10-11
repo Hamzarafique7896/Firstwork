@@ -103,7 +103,7 @@ button {
 .mainbutton {
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 50rem;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1em;
     background-color: var(--bs-secondary);
     color: var(--bs-white);
@@ -117,7 +117,7 @@ button {
 }
 
 .secoundrybutton {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1em;
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 50rem;
@@ -1153,7 +1153,7 @@ button {
 
 .quotinner {
 
-    width: 90%;
+    width: 93%;
     height: 100%;
     padding: 2% 0% 2% 0%;
     margin: 2% 0%;
@@ -1190,6 +1190,7 @@ button {
 
 .quotinnerinput {
     display: flex;
+    justify-content: space-between;
 
 
 }
@@ -1209,14 +1210,13 @@ button {
 }
 
 .quotinnerinput1 {
-    width: 48%;
-    margin-right: 2%;
+    width: 49%;
     padding: 2% 0% 2% 0%;
     /* overflow: hidden; */
 }
 
 .quotinnerinput2 {
-    width: 48%;
+    width: 49%;
     padding: 2% 0% 2% 0%;
 
 }
@@ -1320,7 +1320,7 @@ button {
 }
 
 .teamdivinner {
-    width: 90%;
+    width: 93%;
     display: flex;
     justify-content: space-between;
 }
@@ -1516,9 +1516,9 @@ button {
 
 .testimonoldivinner {
 
-    width: 90%;
+    width: 93%;
     display: flex;
-    padding: 4%;
+    padding: 4% 0%;
 }
 
 .testimonoladj {
@@ -1694,7 +1694,7 @@ button {
     justify-content: center;
 }
 .articleinner{
-    width: 90%;
+    width: 93%;
     display: flex;
     justify-content: space-between;
     
@@ -1788,7 +1788,7 @@ button {
         justify-content: center;
     }
     .articleinner{
-        width: 90%;
+        width: 93%;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -1954,7 +1954,7 @@ button {
 
 }
 .lastsectioninner{
-    width: 90%;
+    width: 93%;
     padding: 5% 0% 5% 0%;
     display: flex;
 }
@@ -2012,8 +2012,8 @@ button {
     justify-content: center;
 }
 .footeradj{
-    width: 90%;
-    padding: 5%;
+    width: 93% !important;
+    padding: 5% 0%;
 }
 .footerinner{
     display: flex;
@@ -2247,4 +2247,291 @@ width: 80%;
         margin-top: 5%;
         text-align: center;
     }
+}
+
+
+
+/* 
+<!--About us  back for linking pages --> */
+.topouter{
+    width: 100%;
+    background-image: url(../images/hero.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+}
+.top90{
+    width: 93%;
+    display: flex;
+    padding: 5% 0%;
+}
+.topinner{
+    width: 70%;
+    padding: 4% 0%;
+    
+}
+.topinneradj{
+    width: 30%;
+}
+.topheading{
+    padding: 0% 0% 2% 0%;
+}
+.topheading h1{
+    font-size: 4em;
+    font-weight: 700;
+}
+.btnadj{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+@media (min-width:350px) and (max-width:1000px) {
+    .topouter{
+
+        background-size: cover;
+
+    }
+    .top90{
+        width: 80%;
+        display: flex;
+        padding: 5% 0%;
+        justify-content: center;
+    }
+    .topinner{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .topinneradj{
+        width: 0%;
+        display: none;
+    }
+    .topheading{
+        text-align: center;
+    }
+    .tophbtn{
+        text-align: center;
+    }
+}
+@media (min-width:350px) and (max-width:750px){
+    .topheading h1{
+        font-size: 3em;
+        font-weight: 700;
+    }
+}
+
+
+/* contact us page css starts from here */
+
+
+/* Please Feel Free To Contact Us */
+.contactserv{
+    padding: 0% 1.5% 10% 1.5% !important;
+}
+.contactserv h4{
+    font-weight: 600;
+}
+.contacth1 h1{
+    font-weight: 800;
+}
+.contactadj{
+    display: flex;
+    width: 67%;
+}
+.contactadj2{
+    width: 33%;
+}
+.contactadjlower{
+    width: 50% !important;
+    padding: 4.5% 0.5% 0% 0.5% !important;
+
+}
+@media (min-width:750px) and (max-width:1000px) {
+    .contactadjouteradj{
+        display: flex;
+        justify-content: center;
+    }
+    .contactadjouter{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+       align-items: flex-start;
+
+    }
+    .contactadj2{
+        width: 50%;
+    }
+    .contactadj{
+        display: flex;
+        width: 100%;
+    }
+
+}
+@media (min-width:350px) and (max-width:750px){
+    .contactadjouteradj{
+        display: flex;
+        justify-content: center;
+    }
+    .contactadjouter{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+       align-items: flex-start;
+
+    }
+    .contactadj2{
+        width: 100%;
+    }
+    .contactadj{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactadjlower{
+        width: 100% !important;
+        padding: 4.5% 0.5% 0% 0.5% !important;
+    }
+
+}
+
+/* for map */
+.map{
+    margin-top: 7%;
+}
+.mapouter{
+    width: 100%;
+}
+.mapinner{
+    display: flex;
+    justify-content: center;
+}
+.map90{
+    width: 93%;
+}
+/* .mapdata{
+
+} */
+.mapmap{
+    height: 500px;
+}
+/* here starts the form for contact us */
+.mapform{
+    width: 100%;
+    display: flex;
+}
+.mapform1{
+    width:20%;
+}
+.mapform2{
+    position: relative;
+    margin-top: -150px;
+    width: 50%;
+    background-color: var(--primary);
+    padding: 4%;
+    border-radius: 0.5rem;
+}
+.mapforminner{
+    width: 100%;
+
+}
+.form1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.form1 input{
+    padding: 2% 2%;
+    height: 35px;
+    width: 45%;
+    border-radius: 0.5rem;
+    border: 0px;
+
+}
+.form1 input:focus{
+    outline: none;
+}
+.form1 input::placeholder{
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family: var(--bs-font-sans-serif);
+}
+
+
+.form2{
+    margin-top: 15px;
+    width: 100%;
+}
+.form2 input{
+    padding: 2% 2%;
+    height: 35px;
+    border-radius: 0.5rem;
+    border: 0px;
+    width: 96%;
+}
+.form2 input:focus{
+    outline: none;
+}
+.form2 input::placeholder{
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.form3{
+    margin-top: 15px;
+    width: 100%;
+}
+.form3 textarea{
+    padding: 2% 2%;
+    height: 35px;
+    border-radius: 0.5rem;
+    border: 0px;
+    width: 96%;
+}
+.form3 textarea:focus{
+    outline: none;
+}
+.form3 textarea::placeholder{
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family: var(--bs-font-sans-serif);
+}
+.form4{
+    margin-top: 15px;
+    width: 100%;
+}
+.form4 button{
+    width: 100%;
+    border-radius: 0.5rem !important;
+}
+
+@media (min-width:350px) and (max-width:650px){
+    .form1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .form1 input{
+        padding: 3% 2%;
+        border-radius: 0.5rem;
+        border: 0px;
+        width: 96%;
+    }
+    .marginput{
+        margin-top: 15px !important;
+    }
+
+}
+
+.marginlastcontact{
+    margin-top: 12% !important;
+}
+.footerthirdcontactsocial a:hover{
+    background-color: var(--primary);
+
 }
