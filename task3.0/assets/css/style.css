@@ -774,7 +774,7 @@ button {
 
 /* ********************************<!-- Welcome section starts here --> */
 .Welcomesec {
-    margin-top: 15%;
+    margin-top: 12%;
     margin-bottom: 5%;
 }
 
@@ -921,7 +921,8 @@ button {
 <!-- Services section starts here --> */
 
 .servicesdiv {
-    margin-top: 15%;
+    margin-top: 12%;
+
 }
 
 .servicesdivtext {
@@ -930,6 +931,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 13px;
 }
 
 .sdtextinner {
@@ -956,7 +958,6 @@ button {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
     margin-bottom: 5%;
 }
 
@@ -1131,7 +1132,7 @@ button {
 
 /* <!-- here starts section of the form */
 .quotesec {
-    margin-top: 10%;
+    margin-top: 12%;
     overflow: hidden;
     background-image: url(../images/quote.jpg);
     background-size: contain;
@@ -1273,6 +1274,11 @@ button {
 }
 
 @media (min-width:350px) and (max-width:1000px) {
+    .quotesec {
+        background-size: cover;
+
+
+    }
 
     .quotinneradjem {
         width: 0%;
@@ -1300,7 +1306,7 @@ button {
 
 /* <!-- team members section starts here --> */
 .teamsection {
-    margin-top: 15%;
+    margin-top: 12%;
 }
 
 .teamdiv {
@@ -1489,7 +1495,7 @@ button {
 
 /* <!-- here starts the section for the testimonoles --> */
 .testimonoles {
-    margin-top: 15%;
+    margin-top: 18%;
     background-image: url(../images/testimonial.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -1584,10 +1590,14 @@ button {
 }
 
 @media (min-width:750px) and (max-width:1000px) {
+    .testimonoles {
+        background-size: cover;
+    }
+    
     .testimonoldivinner {
         width: 80%;
         display: flex;
-        padding: 4%;
+        padding: 4% 0%;
     }
 
     .testimonoladj {
@@ -1618,6 +1628,9 @@ button {
     
 }
 @media (min-width:350px) and (max-width:749.9px) {
+    .testimonoles {
+        background-size: cover;
+    }
     .testimonoldivinner {
         width: 80%;
         display: flex;
@@ -1662,10 +1675,12 @@ button {
     .testimonoltexthcontact h4 {
    font-size: 1.1em;
     }
+    .testimonoles {
+        margin-top: 25%;}
 }
 /* <!-- here starts the section for Latest Articles --> */
 .articlesection{
-    margin-top: 15%;
+    margin-top: 12%;
 }
 .art h1{
     font-weight: 700;
@@ -1682,6 +1697,7 @@ button {
     width: 90%;
     display: flex;
     justify-content: space-between;
+    
 }
 .articleinneradj{
     display: flex;
@@ -1696,7 +1712,7 @@ button {
 }
 .article1img{
     width: 100%;
-    height: 16.051em;
+    height: 75%;
 }
 .article1img img{
     width: 100%;
@@ -1717,6 +1733,7 @@ button {
     align-items: center;
     flex-direction: column;
     padding: 5% 2% 5% 2%;
+    width: 15%;
 }
 .article1imgbelvert i{
     color: var(--primary);
@@ -1728,9 +1745,11 @@ button {
     color: var(--bs-white);
 }
 .article1imgbelhov{
-    margin-left: 5%;
+    width: 85%;
+   display: flex;
+   justify-content: center;
     font-size: 1.2em;
-    font-weight: 400;
+    font-weight: 600;
 }
 .article1lastdiv{
     display: flex;
@@ -1761,4 +1780,471 @@ button {
 }
 .article1lastdivspan1{
     margin-left: 15px;
+}
+
+@media (min-width:999.9px) and (max-width:1200px) {
+    .articlediv{
+        display: flex;
+        justify-content: center;
+    }
+    .articleinner{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .articleinneradj{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .articlefirst{
+        width: 49%;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .article1imgadj{
+        width: 49%;
+    }
+    .article1img{
+        width: 100%;
+   
+    }
+    
+}
+@media (min-width:440.1px) and (max-width:999.8px) {
+    .articlediv{
+        display: flex;
+        justify-content: center;
+    }
+    .articleinner{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .articleinneradj{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+    }
+    .articlefirst{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .article1imgadj{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .article1img{
+        width: 100%;
+
+    }
+
+}
+@media (min-width:410.1px) and (max-width:440px) {
+    .articlediv{
+        display: flex;
+        justify-content: center;
+    }
+    .articleinner{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .articleinneradj{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+    }
+    .articlefirst{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .article1imgadj{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .article1img{
+        width: 100%;
+
+    }
+    .article1imgbelvert{
+
+        padding: 5% 1% 5% 1%;
+    }
+    .article1imgbelhov{
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .article1imgbelvert p{
+        margin-top: 10%;
+        padding: 5% 0%;
+        color: var(--bs-white);
+    }
+
+}
+@media (min-width:350px) and (max-width:410px) {
+    .articlediv{
+        display: flex;
+        justify-content: center;
+    }
+    .articleinner{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .articleinneradj{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+    }
+    .articlefirst{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .article1imgadj{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .article1img{
+        width: 100%;
+
+    }
+    .article1imgbelvert{
+
+        padding: 5% 1% 5% 1%;
+    }
+    .article1imgbelhov{
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .article1imgbelvert p{
+        margin-top: 10%;
+        font-size: 0.7em;
+        padding: 5% 0%;
+        color: var(--bs-white);
+    }
+
+}
+/* <!-- here starts the secound last section --> */
+.lastsection{
+    margin-top: 18%;
+}
+.lastsectionouter{
+    margin-top: 5%;
+    width: 100%;
+
+    background-color: var(--primary);
+
+}
+.lastsectionadj{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/call-to-action.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:right;
+
+
+}
+.lastsectioninner{
+    width: 90%;
+    padding: 5% 0% 5% 0%;
+    display: flex;
+}
+.lastsection1{
+    width: 50%;
+}
+.lastsection2{
+    width: 50%;
+}
+.lastsectiontxt{
+    padding: 0% 0%;
+}
+.lasttxth1{
+    padding: 5% 0%;
+}
+.lasttxtp p{
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+.lasttxtbtn{
+    margin-top: 5%;
+}
+@media (min-width:350px) and (max-width:1000px) {
+    .lastsectionadj{
+        background-size: cover;
+    }
+    .lastsectioninner{
+        width: 80%;
+
+        display: flex;
+        justify-content: center;
+    }
+    .lastsection1{
+        width: 100%;
+    }
+    .lastsection2{
+        width: 0%;
+        display: none;
+    }
+}
+
+/* <!-- footer starts here --> */
+/* .footer{
+
+} */
+.footerouter{
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color:#26252D;
+}
+.footercolor{
+    display: flex;
+    justify-content: center;
+}
+.footeradj{
+    width: 90%;
+    padding: 5%;
+}
+.footerinner{
+    display: flex;
+}
+.footerinneradj{
+    display: flex;
+    width: 50%;
+}
+.footerinneradj2{
+    display: flex;
+    width: 50%;
+}
+.footerfirst{
+    width: 50%;
+    padding: 0% 2%;
+}
+.footerhr{
+    width: 30%;
+    height:0px ;
+    border: 1px solid var(--secondary) ;
+    margin:  8% 0%;
+}
+
+.footerfirsth1 h1{
+    color: var(--primary);
+    font-size: 1.5em;
+    padding: 2% 0%;
+}
+
+.footerfirstp p{
+    padding: 2% 0%;
+    color: var(--bs-white);
+    line-height: 1.5;
+    
+}
+.footerfirstpoints{
+    margin:  8% 0%;
+}
+.footerfirstpoints p{
+    padding: 2% 0%;;
+    margin: 2% 0%;
+    color: var(--bs-white);
+    line-height: 1.5;
+}
+.footerfirstpoints p i{
+    color: var(--primary);
+}
+.footersecoundpoint{
+    margin: 8% 0%;
+}
+.footersecoundpoint a{
+    color: var(--bs-white);
+
+    line-height: 1.5;
+}
+.footersecoundpoint a p{
+    padding: 1.5% 0%;;
+    margin: 2% 0%;
+    
+}
+.footerthirdform{
+    position: relative;
+}
+.footerthirdform form{
+    display: flex;
+
+    width: 100%;
+}
+.footerthirdinput{
+    width: 100%;
+
+}
+.footerthirdform form input{
+padding: 6% 5%;
+border-radius: 0.5rem;
+border: 0px;
+width: 80%;
+
+}
+.footerthirdform form input ::placeholder{
+    padding: 0% 6% !important;
+}
+.footerthirdform form input:focus{
+    outline: none;
+}
+.footerthirdbtn{
+    position: absolute;
+    right: 0px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+}
+.footerthirdbtn button{
+    width: 100%;
+    padding: 6% 5%;
+    border: 0px;
+    background-color: var(--primary);
+    font-weight: 700;
+    font-size: 0.9em;
+}
+.footerthirdh5{
+    margin-top: 8%;
+}
+.footerthirdh5 h5{
+    color: var(--primary);
+}
+.footerthirdcontactsocial{
+    margin-top: 8%;
+    display: flex;
+}
+.footerthirdcontactsocial a{
+    margin-left: 4% !important;
+    background-color: var(--primary);
+}
+.footerthirdcontactsocial a i{
+    color: var(--bs-dark);
+}
+@media (min-width:750px) and (max-width:1000px) {
+    .footerouter{
+
+        background-size: cover;
+
+    }
+    .footeradj{
+        width: 80%;
+        padding: 5% 0%;
+    }
+    .footerinner{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerinneradj{
+        display: flex;
+        width: 100%;
+    }
+    .footerinneradj2{
+        margin-top: 8%;
+        display: flex;
+        width: 100%;
+    }
+    .footerfirst{
+        width: 50%;
+        padding: 0% 2%;
+    
+    }
+}
+@media (min-width:350px) and (max-width:749.9px) {
+    .footerouter{
+
+        background-size: cover;
+
+    }
+    .footeradj{
+        width: 80%;
+        padding: 5% 0%;
+    }
+    .footerinner{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerinneradj{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .footerinneradj2{
+        margin-top: 8%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .footerfirst{
+        width: 100%;
+        padding: 0% 0%;
+        margin-top: 8%;
+    
+    }
+    .footerhr{
+        margin:  4% 0%;
+    }.footerfirstpoints{
+        margin:  4% 0%;
+    }
+    .footersecoundpoint{
+        margin: 4% 0%;
+    }
+    .footerthirdh5{
+        margin-top: 4%;
+    }
+    .footerthirdcontactsocial{
+        margin-top: 4%;
+        display: flex;
+    }
+}
+
+/* <!-- here last copy right section --> */
+.endout{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    padding: 2%  0%;
+}
+.endin{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.endin p{
+    line-height: 1.5;
+}
+@media (min-width:350px) and (max-width:1000px) {
+    .endin{
+        width: 80%;
+
+    }
+}
+@media (min-width:350px) and (max-width:750px) {
+    .endin{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .endfirst{
+        text-align: center;
+    }
+    .endsecound{
+        margin-top: 5%;
+        text-align: center;
+    }
 }
