@@ -1313,6 +1313,7 @@ button {
 /* <!-- team members section starts here --> */
 .teamsection {
     margin-top: 12%;
+    margin-bottom: 6%;
 }
 
 .teamdiv {
@@ -1501,7 +1502,7 @@ button {
 
 /* <!-- here starts the section for the testimonoles --> */
 .testimonoles {
-    margin-top: 18%;
+    margin-top: 12%;
     background-image: url(../images/testimonial.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -1756,6 +1757,9 @@ button {
    justify-content: center;
     font-size: 1.2em;
     font-weight: 600;
+}
+.article1imgbelhov:hover{
+    opacity: 0.5;
 }
 .article1lastdiv{
     display: flex;
