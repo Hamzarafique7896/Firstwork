@@ -2535,3 +2535,138 @@ width: 80%;
     background-color: var(--primary);
 
 }
+
+/* <!-- login section starts here --> */
+.login{
+    margin-top: 12%;
+}
+.loginmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.login90{
+    width: 93%;
+
+}
+.logininner{
+    display: flex;
+    justify-content: center;
+ 
+}
+.loginfirst{
+    width: 0%;
+}
+.loginsecound{
+    width: 40%;
+    background-color: var(--primary);
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem !important;
+
+}
+.loginsecoundadj{
+    width: 100%;
+}
+.loginhead{
+    text-align: center;
+}
+.loginsecoundadj{
+    margin-top: 15px;
+}
+.loginform{
+    margin-top: 50px;
+}
+.loginsignup{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginsignup2{
+    margin-top: 12px;
+}
+.loginsignup2 button{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem !important;
+}
+.loginform1{
+    margin-top: 15px;
+
+}
+.loginform1 input{
+    padding: 3% 2%;
+    width: 96%;
+    height: 25px;
+    border: 0px;
+    border-radius: 0.5rem !important;
+}
+.loginform1 input:focus{
+    outline: none;
+}
+.loginform3{
+    margin-top: 12px;
+
+}
+.loginform3 input{
+    border: 0px;
+    border-radius: 0.5rem !important;
+}
+.loginform3 a{
+
+   font-weight: 600;
+}
+.loginform4{
+    margin-top: 12px;
+    width: 100%;
+}
+.loginform4 button{
+    width: 100%;
+    border-radius: 0.5rem !important;
+
+}
+@media (min-width:605px) and (max-width:750px){
+    .logininner{
+        display: flex;
+        justify-content: center;
+     
+    }
+    .loginfirst{
+        width: 0%;
+        display: none;
+    }
+    .loginsecound{
+        width: 50%;
+        background-color: var(--primary);
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        border-radius: 0.5rem !important;
+    
+    }
+
+}
+@media (min-width:350px) and (max-width:604px){
+    .logininner{
+        display: flex;
+        justify-content: center;
+     
+    }
+    .loginfirst{
+        width: 0%;
+        display: none;
+    }
+    .loginsecound{
+        width: 60%;
+        background-color: var(--primary);
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        border-radius: 0.5rem !important;
+    
+    }
+
+}
