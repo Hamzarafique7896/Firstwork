@@ -450,10 +450,13 @@ button {
 
 
 
-@media (min-width:1000px) and (max-width:1200px) {
+@media (min-width:1000.9px) and (max-width:1050px) {
     .navbara {
-        padding: 15px;
+        padding: 30px 8px ;
 
+    }
+    .navbaraadj{
+        padding: 21px 8px;
     }
 
 }
