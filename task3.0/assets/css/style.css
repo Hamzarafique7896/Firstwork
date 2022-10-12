@@ -386,6 +386,8 @@ button {
     width: 150%;
     border-radius: 0.5rem;
     left: -20%;
+    padding: 2%;
+    overflow: hidden;
 }
 
 .dropdown:hover .dropdownst {
@@ -450,7 +452,7 @@ button {
 
 
 
-@media (min-width:1000.9px) and (max-width:1050px) {
+@media (min-width:1010.1px) and (max-width:1060px) {
     .navbara {
         padding: 30px 8px ;
 
@@ -460,8 +462,18 @@ button {
     }
 
 }
+@media (min-width:1000px) and (max-width:1010px) {
+    .navbara {
+        padding: 30px 7px ;
 
-@media (min-width:350px) and (max-width:1000px) {
+    }
+    .navbaraadj{
+        padding: 21px 7px;
+    }
+
+}
+
+@media (min-width:350px) and (max-width:999.9px) {
     .hamburger {
         top: 5px;
         display: block !important;
