@@ -50,8 +50,6 @@ a {
     --secondary: #8CC641;
     --light: #F2F2F2;
     --dark: #272630;
-
-
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -599,6 +597,7 @@ button {
 
 }
 
+
 @media (min-width:1000px) and (max-width:1100px) {
     .bmtinheading h1 {
         font-weight: 700;
@@ -684,6 +683,7 @@ button {
     }
 
 }
+
 
 @media (min-width:550px) and (max-width:709.99px) {
 
